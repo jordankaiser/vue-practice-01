@@ -15,6 +15,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/pokemonlist">Pokemon Listing</RouterLink>
         <RouterLink to="/emit">Emitting</RouterLink>
+        <RouterLink to="/composition-api-store">Composition API Store</RouterLink>
+        <RouterLink to="/pinia-store">Pinia Store</RouterLink>
       </nav>
     </div>
   </header>
