@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div>
+    <div class="m-t-000 m-b-000">
       <button
         @click="toggleComponent('component-a')"
-        class="text--primary btn-bg--primary border-0 btn m-r-000 m-t-000 hvr"
+        class="text--primary btn-bg--primary border-0 btn m-r-000"
       >
         Component A
       </button>
       <button
         @click="toggleComponent('component-b')"
-        class="text--secondary btn-bg--primary border-0 btn m-t-000 hvr"
+        class="text--secondary btn-bg--primary border-0 btn"
       >
         Component B
       </button>
@@ -17,7 +17,7 @@
     <Transition @enter="onEnter" @leave="onLeave" mode="out-in" :css="false">
       <component :is="activeComponent"></component>
     </Transition>
-    <hr />
+    <hr class="m-t-000 m-b-000" />
     <h1>Parent component</h1>
     <p>
       Bibendum iaculis conubia leo ultricies ligula cum nunc, metus justo eros
@@ -90,6 +90,6 @@ function onLeave(el, done) {
       { opacity: 1 },
       { opacity: 0, duration: 0.25 }
     )
-    .to(el, { height: "0px", duration: 0.5 }, "->=0.2");
+    .to(el, { height: "0px", duration: 0.75 }, "->=0.05");
 }
 </script>

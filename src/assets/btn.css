@@ -20,9 +20,8 @@
 }
 .btn:hover:before,
 .btn:focus:before {
-  background-color: crimson;
   transform: translate(4px, 4px) scale(1);
 }
 .btn:focus:before {
-  background-color: chocolate;
+  background-color: #3b48ae;
 }
