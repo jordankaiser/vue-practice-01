@@ -5,7 +5,7 @@
     <p :class="['m-t-000', changeTextColor]">Text color change if count > 1</p>
     <button
       @click="storeCount.count = 0"
-      class="text--secondary btn-bg--primary border-0 btn m-t-000 hvr"
+      class="text--secondary btn-bg--primary border-0 btn m-t-000"
     >
       Reset Count
     </button>
