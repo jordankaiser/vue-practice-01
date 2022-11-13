@@ -20,7 +20,7 @@ import { computed } from "vue";
 
 const changeTextColor = computed(() => {
   return {
-    orange: storeCount.count > 1,
+    "text--secondary": storeCount.count > 1,
   };
 });
 </script>
