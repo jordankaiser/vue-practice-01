@@ -26,6 +26,9 @@ import HelloWorld from "./components/HelloWorld.vue";
         >
         <RouterLink to="/pinia-store">Pinia Store</RouterLink>
         <RouterLink to="/reactive-class">Reactive Class</RouterLink>
+        <RouterLink to="/animate-component-transition"
+          >Animate Component Transition</RouterLink
+        >
       </nav>
     </div>
   </header>
