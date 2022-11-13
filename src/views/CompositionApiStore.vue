@@ -3,6 +3,7 @@
     <component-a />
     <component-b />
     <p :class="changeTextColor">Text color change if count > 1</p>
+    <button @click="storeCount.count = 0">Reset Count</button>
   </div>
 </template>
 
