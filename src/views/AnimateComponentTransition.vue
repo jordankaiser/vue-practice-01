@@ -1,8 +1,18 @@
 <template>
   <div>
     <div>
-      <button @click="toggleComponent('component-a')">Component A</button>
-      <button @click="toggleComponent('component-b')">Component B</button>
+      <button
+        @click="toggleComponent('component-a')"
+        class="text--primary btn-bg--primary border-0 btn m-r-000 m-t-000 hvr"
+      >
+        Component A
+      </button>
+      <button
+        @click="toggleComponent('component-b')"
+        class="text--secondary btn-bg--primary border-0 btn m-t-000 hvr"
+      >
+        Component B
+      </button>
     </div>
     <Transition @enter="onEnter" @leave="onLeave" mode="out-in" :css="false">
       <component :is="activeComponent"></component>
