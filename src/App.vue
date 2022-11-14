@@ -29,6 +29,7 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/animate-component-transition"
           >Animate Component Transition GSAP</RouterLink
         >
+        <RouterLink to="/async-await">Async Await</RouterLink>
       </nav>
     </div>
   </header>
